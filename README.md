@@ -1,10 +1,10 @@
 # Collage Diffusion UI
 
 <p align="center">
-  <a href="collagediffusion.stanford.edu">
+  <a href="http://collagediffusion.stanford.edu">
     [Demo Website]
   </a>
-  <a href="#blog-post">[Blog Post]</a>
+  <a href="https://vsanimator.github.io/collage_diffusion/">[Blog Post]</a>
   <a href="#tutorial">[Video Tutorial]</a>
   <a href="https://arxiv.org/abs/2303.00262">[Paper]</a>
 </p>
