@@ -1,0 +1,4 @@
+diffusers==0.10.0
+accelerate
+transformers
+python-multipart==0.0.5

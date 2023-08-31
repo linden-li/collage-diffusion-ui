@@ -1,0 +1,13 @@
+{
+    "frontend": {
+        "webserverAddress": "http://35.223.228.244:8000",
+        "defaultCollageId": "7b3b40cef3"
+    },
+    "backend": {
+        "rayHostAddress": "127.0.0.1",
+        "rayHostPort": "9000",
+        "webserverHost": "0.0.0.0",
+        "webserverPort": "8000",
+        "activeGpus": "0,1,2,3"
+    }
+}

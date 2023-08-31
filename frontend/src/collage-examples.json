@@ -1,0 +1,967 @@
+[
+  {
+    "collage": {
+      "collagePrompt": "a room with a couch with pillows in the center, wooden table with a lamp on top, window with a potted plant on the sill, carpet with a blue mug on top of a wooden coffee table ",
+      "numInferenceSteps": 50,
+      "guidanceScale": 7,
+      "seed": 44,
+      "numFrames": 4,
+      "layers": [
+        {
+          "id": 0,
+          "key": "259857bf9f1c32c0d331",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/5f58ea0c5841a5a3f94122b1d0a09dcf",
+          "textPrompt": "room",
+          "cacStrength": 0.2,
+          "cannyStrength": 0.1,
+          "negativeStrength": 0.2,
+          "noiseStrength": 0.9,
+          "transform": {
+            "position": {
+              "x": -0.18473895582329317,
+              "y": -0.37751004016064255
+            },
+            "scale": 0.0019163267242197136,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 1,
+          "key": "a889f3e69fe6e6a50092",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/cb8c343fea325ae5797a59fbb927acdb",
+          "textPrompt": "wooden table",
+          "cacStrength": 0.8596357820663183,
+          "cannyStrength": 0.8,
+          "negativeStrength": 0.7997398443330845,
+          "noiseStrength": 0.4,
+          "transform": {
+            "position": {
+              "x": 0.027309236947791176,
+              "y": 0.5957010342253973
+            },
+            "scale": 0.00031929985881183273,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 2,
+          "key": "27e0f771ab42d7b2c527",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/e2c2617616e302fd77c0dcca8098f79c",
+          "textPrompt": "lamp",
+          "cacStrength": 0.8828682712287665,
+          "cannyStrength": 0.5,
+          "negativeStrength": 0.7,
+          "noiseStrength": 0.4,
+          "transform": {
+            "position": {
+              "x": 0.05943775100401606,
+              "y": 0.445520364520728
+            },
+            "scale": 0.00023667756874365221,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 3,
+          "key": "354461530f7f8703d398",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/252b6d43b260ded173393c9d6745cdf5",
+          "textPrompt": "carpet",
+          "cacStrength": 0.6660174326937378,
+          "cannyStrength": 0.4,
+          "negativeStrength": 0.66144102335267,
+          "noiseStrength": 0.5,
+          "transform": {
+            "position": {
+              "x": 0.26157942093407155,
+              "y": 0.6954578117869454
+            },
+            "scale": 0.0011018890376320095,
+            "rotation": 0
+          },
+          "polygon": [
+            {
+              "x": 0.5341796875,
+              "y": 0.15787760416666669
+            },
+            {
+              "x": 0.4384765625,
+              "y": 0.1649999020989975
+            },
+            {
+              "x": 0.4033203125,
+              "y": 0.20298549107142858
+            },
+            {
+              "x": 0.3916015625,
+              "y": 0.2480933779761905
+            },
+            {
+              "x": 0.3916015625,
+              "y": 0.2932012648809524
+            },
+            {
+              "x": 0.3896484375,
+              "y": 0.32881275454260656
+            },
+            {
+              "x": 0.3701171875,
+              "y": 0.35492784696115287
+            },
+            {
+              "x": 0.3583984375,
+              "y": 0.41428032973057644
+            },
+            {
+              "x": 0.3974609375,
+              "y": 0.46176231594611533
+            },
+            {
+              "x": 0.5126953125,
+              "y": 0.45938821663533835
+            },
+            {
+              "x": 0.6533203125,
+              "y": 0.45938821663533835
+            },
+            {
+              "x": 0.7900390625,
+              "y": 0.4403954221491228
+            },
+            {
+              "x": 0.8056640625,
+              "y": 0.3454314497180451
+            },
+            {
+              "x": 0.7880859375,
+              "y": 0.2433451793546366
+            },
+            {
+              "x": 0.7353515625,
+              "y": 0.19111499451754388
+            },
+            {
+              "x": 0.6533203125,
+              "y": 0.17212220003132833
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "key": "ce8adb2bbe4f106d9b35",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/528dad8217d0cd1ef926597fb06ca7d7",
+          "textPrompt": "couch with pillows",
+          "cacStrength": 0.4,
+          "cannyStrength": 0.6,
+          "negativeStrength": 0.8,
+          "noiseStrength": 0.2,
+          "transform": {
+            "position": {
+              "x": 0.2122897227123057,
+              "y": 0.4646419157586946
+            },
+            "scale": 0.0007873923971210475,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 5,
+          "key": "e442190656bb68109391",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/70577f5c50a9d11bdb9657006d1d5859",
+          "textPrompt": "window",
+          "cacStrength": 0.733832417046828,
+          "cannyStrength": 0.6,
+          "negativeStrength": 0.5,
+          "noiseStrength": 0.5760478808437635,
+          "transform": {
+            "position": {
+              "x": 0.5333333333333333,
+              "y": 0.062328135023004876
+            },
+            "scale": 0.0005318033625438001,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 6,
+          "key": "ad01570eb9c02ff61d29",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/3b8c109483404a1a2b9ecdcfa2ebcced",
+          "textPrompt": "potted plant",
+          "cacStrength": 0.5,
+          "cannyStrength": 0.4,
+          "negativeStrength": 0.4,
+          "noiseStrength": 0.4,
+          "transform": {
+            "position": {
+              "x": 0.7502008032128514,
+              "y": 0.23071155726528703
+            },
+            "scale": 0.00013737341954168824,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 7,
+          "key": "36e20dab10ad115df872",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/8d930dba4c00dce6fda6a04e4e04eb16",
+          "textPrompt": "wooden coffee table",
+          "cacStrength": 0.6,
+          "cannyStrength": 0.5,
+          "negativeStrength": 0.7271567142888494,
+          "noiseStrength": 0.6,
+          "transform": {
+            "position": {
+              "x": 0.3389155683029692,
+              "y": 0.6856449955652316
+            },
+            "scale": 0.00038754099935235566,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 8,
+          "key": "4eb5d027fba5ffdfd78b",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/38ccc6ff831bf04aa632a1b2c33af1fb",
+          "textPrompt": "blue mug",
+          "cacStrength": 0.8,
+          "cannyStrength": 0.5,
+          "negativeStrength": 0.8499761193110037,
+          "noiseStrength": 0.3,
+          "transform": {
+            "position": {
+              "x": 0.46112468668723444,
+              "y": 0.6279579927498388
+            },
+            "scale": 0.00012680324635994006,
+            "rotation": 0
+          },
+          "polygon": []
+        }
+      ],
+      "inputTokenData": [
+        {
+          "data": "a",
+          "id": "start"
+        },
+        {
+          "data": "room",
+          "layerKey": "259857bf9f1c32c0d331",
+          "id": "76467f41a4"
+        },
+        {
+          "data": "with a",
+          "id": "967cb30743"
+        },
+        {
+          "data": "couch with pillows",
+          "layerKey": "ce8adb2bbe4f106d9b35",
+          "id": "6aced78dff"
+        },
+        {
+          "data": "in the center,",
+          "id": "69399a8f54"
+        },
+        {
+          "data": "wooden table",
+          "layerKey": "a889f3e69fe6e6a50092",
+          "id": "57534c8adc"
+        },
+        {
+          "data": "with a",
+          "id": "1976e8bc0b"
+        },
+        {
+          "data": "lamp",
+          "layerKey": "27e0f771ab42d7b2c527",
+          "id": "81321121aa"
+        },
+        {
+          "data": "on top,",
+          "id": "59db70fa27"
+        },
+        {
+          "data": "window",
+          "layerKey": "e442190656bb68109391",
+          "id": "24275c6da2"
+        },
+        {
+          "data": "with a",
+          "id": "443db9e0dd"
+        },
+        {
+          "data": "potted plant",
+          "layerKey": "ad01570eb9c02ff61d29",
+          "id": "6bc06dff4d"
+        },
+        {
+          "data": "on the sill,",
+          "id": "1d6bfaa4e1"
+        },
+        {
+          "data": "carpet",
+          "layerKey": "354461530f7f8703d398",
+          "id": "1f040bacd4"
+        },
+        {
+          "data": "with a",
+          "id": "417522269a"
+        },
+        {
+          "data": "blue mug",
+          "layerKey": "4eb5d027fba5ffdfd78b",
+          "id": "49e492944f"
+        },
+        {
+          "data": "on top of a",
+          "id": "124bafc90b"
+        },
+        {
+          "data": "wooden coffee table",
+          "layerKey": "36e20dab10ad115df872",
+          "id": "17f9e0900b"
+        },
+        {
+          "id": "7dba49a7d0"
+        }
+      ],
+      "layerToIndexMap": [
+        ["259857bf9f1c32c0d331", 1],
+        ["ce8adb2bbe4f106d9b35", 3],
+        ["a889f3e69fe6e6a50092", 5],
+        ["27e0f771ab42d7b2c527", 7],
+        ["e442190656bb68109391", 9],
+        ["ad01570eb9c02ff61d29", 11],
+        ["354461530f7f8703d398", 13],
+        ["36e20dab10ad115df872", 17],
+        ["4eb5d027fba5ffdfd78b", 15]
+      ]
+    },
+    "collageImage": "https://storage.googleapis.com/collage-bucket/collage-demo.png",
+    "generatedImage": "https://storage.googleapis.com/collage-bucket/room_demo.png"
+  },
+  {
+    "collage": {
+      "collagePrompt": "a house  with a pink cherry blossom next to a swimming pool with a stone pool deck in the backyard , sky with birds flying in the background ",
+      "numInferenceSteps": 50,
+      "guidanceScale": 7,
+      "seed": 42,
+      "numFrames": 4,
+      "layers": [
+        {
+          "id": 0,
+          "key": "38c68387230d3832b5b5",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/3e3d7551e6c2504f5ec3633749ea8ad3",
+          "textPrompt": "backyard",
+          "cacStrength": 0.3,
+          "cannyStrength": 0.1,
+          "negativeStrength": 0.2,
+          "noiseStrength": 0.9,
+          "transform": {
+            "position": {
+              "x": -0.026802467965823275,
+              "y": 0.6470060701584622
+            },
+            "scale": 0.0005332161086208943,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 1,
+          "key": "7e91f29f6708c60587ad",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/7ad554e67af9ac53042c539957606ee4",
+          "textPrompt": "sky with birds flying",
+          "cacStrength": 0.3,
+          "cannyStrength": 0.5,
+          "negativeStrength": 0.4,
+          "noiseStrength": 0.8,
+          "transform": {
+            "position": {
+              "x": -0.0015661707126076742,
+              "y": -0.0031323414252153485
+            },
+            "scale": 0.0016339869281045752,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 2,
+          "key": "a834add6540be73c5a30",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/ed6b288cb0e6562d8a29200baf4d21ad",
+          "textPrompt": "house",
+          "cacStrength": 0.5948329629124537,
+          "cannyStrength": 0.7369519576142328,
+          "negativeStrength": 0.6105949735088956,
+          "noiseStrength": 0.2,
+          "transform": {
+            "position": {
+              "x": 0.30022750132134624,
+              "y": 0.4076201698086453
+            },
+            "scale": 0.0005055109633032393,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 3,
+          "key": "396a8c646461e3c796c3",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/00c0b6f1437a2e3a568d3f81aac0a0fb",
+          "textPrompt": "pink cherry blossom",
+          "cacStrength": 0.7742682675932997,
+          "cannyStrength": 0.5,
+          "negativeStrength": 0.6,
+          "noiseStrength": 0.8,
+          "transform": {
+            "position": {
+              "x": 0.0031323414252154374,
+              "y": 0.49945119396281057
+            },
+            "scale": 0.00038117482675903446,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 4,
+          "key": "0c9ccc2d012f74d6e0d4",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/1283600e700deee237e1b84053f6ad19",
+          "textPrompt": "swimming pool",
+          "cacStrength": 0.4,
+          "cannyStrength": 0.4,
+          "negativeStrength": 0.4,
+          "noiseStrength": 0.7,
+          "transform": {
+            "position": {
+              "x": 0.1754111198120596,
+              "y": 0.7305491966624365
+            },
+            "scale": 0.00026079172629816665,
+            "rotation": 0
+          },
+          "polygon": [
+            {
+              "x": 0.6826171875,
+              "y": 0.89453125
+            },
+            {
+              "x": 0.6103515625,
+              "y": 0.9674479166666666
+            },
+            {
+              "x": 0.4580078125,
+              "y": 0.9908854166666666
+            },
+            {
+              "x": 0.2158203125,
+              "y": 0.9700520833333334
+            },
+            {
+              "x": 0.0498046875,
+              "y": 0.8997395833333334
+            },
+            {
+              "x": 0.0185546875,
+              "y": 0.7122395833333334
+            },
+            {
+              "x": 0.0126953125,
+              "y": 0.4934895833333333
+            },
+            {
+              "x": 0.0048828125,
+              "y": 0.33203125
+            },
+            {
+              "x": 0.1279296875,
+              "y": 0.22786458333333334
+            },
+            {
+              "x": 0.2861328125,
+              "y": 0.16796875
+            },
+            {
+              "x": 0.4326171875,
+              "y": 0.20442708333333334
+            },
+            {
+              "x": 0.4736328125,
+              "y": 0.22005208333333334
+            },
+            {
+              "x": 0.6044921875,
+              "y": 0.20182291666666666
+            },
+            {
+              "x": 0.6767578125,
+              "y": 0.21744791666666666
+            },
+            {
+              "x": 0.6669921875,
+              "y": 0.27734375
+            },
+            {
+              "x": 0.7314453125,
+              "y": 0.3216145833333333
+            },
+            {
+              "x": 0.8291015625,
+              "y": 0.3424479166666667
+            },
+            {
+              "x": 0.9208984375,
+              "y": 0.3893229166666667
+            },
+            {
+              "x": 0.9365234375,
+              "y": 0.44140625
+            },
+            {
+              "x": 0.8779296875,
+              "y": 0.4986979166666667
+            },
+            {
+              "x": 0.7998046875,
+              "y": 0.5716145833333334
+            },
+            {
+              "x": 0.7529296875,
+              "y": 0.71484375
+            },
+            {
+              "x": 0.7216796875,
+              "y": 0.82421875
+            }
+          ]
+        }
+      ],
+      "inputTokenData": [
+        {
+          "data": "a",
+          "id": "start"
+        },
+        {
+          "data": "house",
+          "layerKey": "a834add6540be73c5a30",
+          "id": "2d3d7cb03b"
+        },
+        {
+          "data": " with a",
+          "id": "d04c135075"
+        },
+        {
+          "data": "pink cherry blossom",
+          "layerKey": "396a8c646461e3c796c3",
+          "id": "c33d7b07c3"
+        },
+        {
+          "data": "next to a",
+          "id": "000ecfd659"
+        },
+        {
+          "data": "swimming pool",
+          "layerKey": "0c9ccc2d012f74d6e0d4",
+          "id": "7582605dcf"
+        },
+        {
+          "data": "with a stone pool deck in the",
+          "id": "d62f1856c0"
+        },
+        {
+          "data": "backyard",
+          "layerKey": "38c68387230d3832b5b5",
+          "id": "0e04f75531"
+        },
+        {
+          "data": ",",
+          "id": "09c7e8b8e6"
+        },
+        {
+          "data": "sky with birds flying",
+          "layerKey": "7e91f29f6708c60587ad",
+          "id": "23f2fe583c"
+        },
+        {
+          "data": "in the background",
+          "id": "3f9765c034"
+        }
+      ],
+      "layerToIndexMap": [
+        ["a834add6540be73c5a30", 1],
+        ["396a8c646461e3c796c3", 3],
+        ["38c68387230d3832b5b5", 7],
+        ["0c9ccc2d012f74d6e0d4", 5],
+        ["7e91f29f6708c60587ad", 9]
+      ]
+    },
+    "collageImage": "https://storage.googleapis.com/collage-bucket/pool-collage.png",
+    "generatedImage": "https://storage.googleapis.com/collage-bucket/pool-demo.png"
+  },
+  {
+    "collage": {
+      "collagePrompt": "a pirate ship moving across a stormy ocean with waves colliding into a rocky shore containing a lighthouse on top, dark storm clouds with lightning in the background ",
+      "numInferenceSteps": 50,
+      "guidanceScale": 7,
+      "seed": 42,
+      "numFrames": 4,
+      "layers": [
+        {
+          "id": 0,
+          "key": "cc66c1151acc0deed0db",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/573702d7b2ff3a0f550d8a4a45de5b38",
+          "textPrompt": "stormy ocean with waves",
+          "cacStrength": 0.1,
+          "cannyStrength": 0.1,
+          "negativeStrength": 0.1,
+          "noiseStrength": 0.9,
+          "transform": {
+            "position": {
+              "x": -0.04181791984423788,
+              "y": 0.3033684288497197
+            },
+            "scale": 0.0001942485392819144,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 1,
+          "key": "cfa3580fdf0e9b2debda",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/35fc381dcda767bfba8939375af87568",
+          "textPrompt": "dark storm clouds",
+          "cacStrength": 0.1,
+          "cannyStrength": 0,
+          "negativeStrength": 0.1,
+          "noiseStrength": 0.8,
+          "transform": {
+            "position": {
+              "x": 0.004698512137823023,
+              "y": -0.0908379013312451
+            },
+            "scale": 0.0008333333333333334,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 2,
+          "key": "c55dc3cd1de784ae9d32",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/e355de4fa2a54cefac43297ee7c99ca5",
+          "textPrompt": "rocky shore",
+          "cacStrength": 0.6,
+          "cannyStrength": 0.5,
+          "negativeStrength": 0.6,
+          "noiseStrength": 0.1,
+          "transform": {
+            "position": {
+              "x": -0.07517619420516837,
+              "y": 0.32420197939097595
+            },
+            "scale": 0.000290560805209357,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 3,
+          "key": "cf42e4e9b53d4531166c",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/ccfb17905b78debe3cefe231bfc17374",
+          "textPrompt": "lighthouse",
+          "cacStrength": 0.7,
+          "cannyStrength": 0.8,
+          "negativeStrength": 0.5,
+          "noiseStrength": 0.2,
+          "transform": {
+            "position": {
+              "x": 0.23859659121529364,
+              "y": 0.13885055052315587
+            },
+            "scale": 0.0002561766948860401,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 4,
+          "key": "dff0768f9755e3305178",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/d8962a6f816e189b38031a5ac56ae4e9",
+          "textPrompt": "pirate ship",
+          "cacStrength": 0.64376134651363,
+          "cannyStrength": 0.5,
+          "negativeStrength": 0.6455438189383073,
+          "noiseStrength": 0.5,
+          "transform": {
+            "position": {
+              "x": 0.38553516668765414,
+              "y": 0.2769236936256163
+            },
+            "scale": 0.0008919283421942233,
+            "rotation": 0
+          },
+          "polygon": []
+        }
+      ],
+      "inputTokenData": [
+        {
+          "data": "a",
+          "id": "ab1dabbd1c"
+        },
+        {
+          "data": "pirate ship",
+          "layerKey": "dff0768f9755e3305178",
+          "id": "1e6d928a25"
+        },
+        {
+          "data": "moving across a",
+          "id": "4d92476f6d"
+        },
+        {
+          "data": "stormy ocean with waves",
+          "layerKey": "cc66c1151acc0deed0db",
+          "id": "057267769d"
+        },
+        {
+          "data": "colliding into a",
+          "id": "4dc8384ed0"
+        },
+        {
+          "data": "rocky shore",
+          "layerKey": "c55dc3cd1de784ae9d32",
+          "id": "b151827fa3"
+        },
+        {
+          "data": "containing a",
+          "id": "a9e851205c"
+        },
+        {
+          "data": "lighthouse",
+          "layerKey": "cf42e4e9b53d4531166c",
+          "id": "f41286955e"
+        },
+        {
+          "data": "on top,",
+          "id": "bf91f884a1"
+        },
+        {
+          "data": "dark storm clouds",
+          "layerKey": "cfa3580fdf0e9b2debda",
+          "id": "b6f26b4b3f"
+        },
+        {
+          "data": "with lightning in the background",
+          "id": "8294b95806"
+        }
+      ],
+      "layerToIndexMap": [
+        ["cc66c1151acc0deed0db", 3],
+        ["c55dc3cd1de784ae9d32", 5],
+        ["cf42e4e9b53d4531166c", 7],
+        ["dff0768f9755e3305178", 1],
+        ["cfa3580fdf0e9b2debda", 9]
+      ]
+    },
+    "collageImage": "https://storage.googleapis.com/collage-bucket/ship-collage.png",
+    "generatedImage": "https://storage.googleapis.com/collage-bucket/ship-demo.png"
+  },
+  {
+    "collage": {
+      "collagePrompt": "a brown porcelain pitcher next to a red apple and an orange and a wine bottle on a table covered in white tablecloth inside of a dark room ",
+      "numInferenceSteps": 50,
+      "guidanceScale": 7,
+      "seed": "7000",
+      "numFrames": 4,
+      "layers": [
+        {
+          "id": 0,
+          "key": "ac9a3a967d5624aafec6",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/702a0a31b06920f4fe62f548f2499c67",
+          "textPrompt": "dark room",
+          "cacStrength": 0.1,
+          "cannyStrength": 0.2,
+          "negativeStrength": 0.1,
+          "noiseStrength": 0.8,
+          "transform": {
+            "position": {
+              "x": -0.12860167157459698,
+              "y": -0.004698512137823023
+            },
+            "scale": 0.001496199207386609,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 1,
+          "key": "ec1f4110dc20dcf177bb",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/b3a9a433fbf67827a4ec8a15adb1b424",
+          "textPrompt": "table covered in white tablecloth",
+          "cacStrength": 0.3,
+          "cannyStrength": 0.8,
+          "negativeStrength": 0.2,
+          "noiseStrength": 0.5,
+          "transform": {
+            "position": {
+              "x": 0.2701072180448924,
+              "y": 0.5177130737724137
+            },
+            "scale": 0.0011595919089636495,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 2,
+          "key": "1032e50f225ae655b92c",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/f630c2052db1df6d4636344c0e250a70",
+          "textPrompt": "brown porcelain pitcher",
+          "cacStrength": 0.3,
+          "cannyStrength": 0.8,
+          "negativeStrength": 0.3,
+          "noiseStrength": 0.8,
+          "transform": {
+            "position": {
+              "x": 0.3395193262570725,
+              "y": 0.4056609153068017
+            },
+            "scale": 0.00025359743856006076,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 3,
+          "key": "a2f0ebfa61efa9d4896f",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/31fa81790f2dd1e1dc050ecf1fc5cfdc",
+          "textPrompt": "wine bottle",
+          "cacStrength": 0.5,
+          "cannyStrength": 0.3,
+          "negativeStrength": 0.2,
+          "noiseStrength": 0.7,
+          "transform": {
+            "position": {
+              "x": 0.6562255285826155,
+              "y": 0.3825586294647104
+            },
+            "scale": 0.00027287754071468796,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 4,
+          "key": "aafc7bccd040d4bb5fef",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/7e0a81d7924e1d01bdd870373684e55b",
+          "textPrompt": "red apple",
+          "cacStrength": 0.6,
+          "cannyStrength": 0.3,
+          "negativeStrength": 0.2,
+          "noiseStrength": 0.2,
+          "transform": {
+            "position": {
+              "x": 0.45262333594361787,
+              "y": 0.5194019299854657
+            },
+            "scale": 0.00009674303526321724,
+            "rotation": 0
+          },
+          "polygon": []
+        },
+        {
+          "id": 5,
+          "key": "3c7d0ecdd31f4817d243",
+          "originalImgUrl": "https://storage.googleapis.com/collage-bucket/0677fbc1728faba39aa3ff1ae2ef22b0",
+          "textPrompt": "orange",
+          "cacStrength": 0.5,
+          "cannyStrength": 0.5,
+          "negativeStrength": 0.2,
+          "noiseStrength": 0.6,
+          "transform": {
+            "position": {
+              "x": 0.5449092955657052,
+              "y": 0.5202782398013269
+            },
+            "scale": 0.0000829204431872563,
+            "rotation": 0
+          },
+          "polygon": []
+        }
+      ],
+      "inputTokenData": [
+        {
+          "data": "a",
+          "id": "17f4780db6"
+        },
+        {
+          "data": "brown porcelain pitcher",
+          "layerKey": "1032e50f225ae655b92c",
+          "id": "a7e9bd237e"
+        },
+        {
+          "data": "next to a",
+          "id": "e58d82dcdd"
+        },
+        {
+          "data": "red apple",
+          "layerKey": "aafc7bccd040d4bb5fef",
+          "id": "fa8ac95bd3"
+        },
+        {
+          "data": "and an",
+          "id": "0c81c79398"
+        },
+        {
+          "data": "orange",
+          "layerKey": "3c7d0ecdd31f4817d243",
+          "id": "d457c4d00a"
+        },
+        {
+          "data": "and a",
+          "id": "8611c63000"
+        },
+        {
+          "data": "wine bottle",
+          "layerKey": "a2f0ebfa61efa9d4896f",
+          "id": "9e04d61b6b"
+        },
+        {
+          "data": "on a",
+          "id": "0fb98c3a2b"
+        },
+        {
+          "data": "table covered in white tablecloth",
+          "layerKey": "ec1f4110dc20dcf177bb",
+          "id": "39462925be"
+        },
+        {
+          "data": "inside of a",
+          "id": "0cb4f89113"
+        },
+        {
+          "data": "dark room",
+          "layerKey": "ac9a3a967d5624aafec6",
+          "id": "ae7f9d2a03"
+        },
+        {
+          "id": "99c029e147"
+        }
+      ],
+      "layerToIndexMap": [
+        ["ac9a3a967d5624aafec6", 11],
+        ["ec1f4110dc20dcf177bb", 9],
+        ["1032e50f225ae655b92c", 1],
+        ["a2f0ebfa61efa9d4896f", 7],
+        ["aafc7bccd040d4bb5fef", 3],
+        ["3c7d0ecdd31f4817d243", 5]
+      ]
+    },
+    "collageImage": "https://storage.googleapis.com/collage-bucket/still-life-collage.png",
+    "generatedImage": "https://storage.googleapis.com/collage-bucket/still-life-demo.png"
+  }
+]

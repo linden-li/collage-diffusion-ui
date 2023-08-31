@@ -1,0 +1,12 @@
+{
+  "frontend": {
+    "webserverAddress": "http://localhost:8009"
+  },
+  "backend": {
+    "rayHostAddress": "127.0.0.1",
+    "rayHostPort": "9007",
+    "webserverHost": "127.0.0.1",
+    "webserverPort": "8009",
+    "activeGpus": "2,3"
+  }
+}

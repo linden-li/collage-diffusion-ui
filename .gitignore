@@ -1,0 +1,11 @@
+dreams/
+diff-expl/
+**/__pycache__/
+**/stable-diffusion/src
+**/logs/
+**/collage_jsons/
+backend/sd-old
+backend/stable-diffusion/assets
+**.ipynb
+config.json
+.vscode
