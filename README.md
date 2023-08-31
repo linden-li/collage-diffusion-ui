@@ -5,7 +5,7 @@
     [Demo Website]
   </a>
   <a href="https://vsanimator.github.io/collage_diffusion/">[Blog Post]</a>
-  <a href="#tutorial">[Video Tutorial]</a>
+  <a href="https://www.youtube.com/watch?v=BX4ZW9M_bmo">[Video Tutorial]</a>
   <a href="https://arxiv.org/abs/2303.00262">[Paper]</a>
 </p>
 <p align="center">
