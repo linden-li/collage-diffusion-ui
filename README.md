@@ -114,6 +114,10 @@ python backend/utils/gcloud_utils.py -f {path_to_file}
 
 where `{path_to_file}` is a path to a file you want to upload. If the file successfully uploaded, you should see a link to the file in the console.
 
+# Collage Diffusion Implementation
+
+The Collage Diffusion implementation modifies Stable Diffusion off of a fork of diffusers. The file `backend/pipeline_controlnet.py` contains a diffusers pipeline where the inputs to Collage Diffusion can be easily configured. For an example on how to use the pipeline, see `backend/test_controlnet.py`.
+
 # Acknowledgements
 
 This project was done under the supervision of [Prof. Chris Re](https://cs.stanford.edu/~chrismre/) and [Prof. Kayvon Fatahalian](http://graphics.stanford.edu/~kayvonf/). The implementation and design of the system was done by [Vishnu Sarukkai](https://vsanimator.github.io/), [Arden Ma](https://www.linkedin.com/in/ardenma/), and [Linden Li](https://linden-li.github.io).
