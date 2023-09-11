@@ -28,7 +28,7 @@ Create a configuration file by running
 
 ## Frontend
 
-The frontend is a React App written in Typescript, with UI components from Chakra UI. All code is placed in the `frontend` directoy. To setup locally, make sure you've installed `node` and `npm`. Setup dependencies by running the following commands:
+The frontend is a React App written in Typescript, with UI components from Chakra UI. All code is placed in the `frontend` directory. To setup locally, make sure you've installed `node` and `npm`. Setup dependencies by running the following commands:
 
 ```bash
 cd frontend
